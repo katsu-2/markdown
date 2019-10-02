@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>markdown</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/dist/build.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDmZ0WQfoAFRnEiX19RWWW6fCB9cuBBJpY",
+        authDomain: "markdown-19e9a.firebaseapp.com",
+        databaseURL: "https://markdown-19e9a.firebaseio.com",
+        projectId: "markdown-19e9a",
+        storageBucket: "markdown-19e9a.appspot.com",
+        messagingSenderId: "260758943394",
+        appId: "1:260758943394:web:605547230f7e5a2afd49fb",
+        measurementId: "G-EXNZ44KCG5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="./build.js"></script>
+  </body>
+</html>
